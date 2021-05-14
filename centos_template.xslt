@@ -155,7 +155,7 @@
         <table>
           <tr><th valign="top"><img src="/icons/blank.gif" alt="[ICO]" /></th><th>Name</th><th>Last modified</th><th>Size</th><th>Description</th></tr>
           <tr><th colspan="5"><hr /></th></tr>
-          <tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]" /></td><td><a href="/">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
+          <tr><td valign="top"><img src="/icons/back.gif" alt="[PARENTDIR]" /></td><td><a href="..">Parent Directory</a>       </td><td>&nbsp;</td><td align="right">  - </td><td>&nbsp;</td></tr>
           <xsl:apply-templates />
           <tr><th colspan="5"><hr /></th></tr>
         </table>
