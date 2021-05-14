@@ -56,7 +56,7 @@
   <xsl:template match="directory">
     <tr>
       <td valign="top">
-        <img src="/icons/folder.gif" alt="[DIR]">
+        <img src="/icons/folder.gif" alt="[DIR]" />
       </td>
       <td>
         <a href="{current()}/"><xsl:value-of select="."/>/</a>
@@ -76,19 +76,19 @@
 
     <xsl:choose>
       <xsl:when test="$extension = 'txt'">
-        <img src="/icons/text.gif" alt="[TXT]">
+        <img src="/icons/text.gif" alt="[TXT]" />
       </xsl:when>
       <xsl:when test="$extension = 'sh'">
-        <img src="/icons/script.gif" alt="[DIR]">
+        <img src="/icons/script.gif" alt="[DIR]" />
       </xsl:when>
       <xsl:when test="$extension = 'gz'">
-        <img src="/icons/compressed.gif" alt="[   ]">
+        <img src="/icons/compressed.gif" alt="[   ]" />
       </xsl:when>
       <xsl:when test="$extension = 'zip'">
-        <img src="/icons/compressed.gif" alt="[   ]">
+        <img src="/icons/compressed.gif" alt="[   ]" />
       </xsl:when>
       <xsl:otherwise>
-        <img src="/icons/unknown.gif" alt="[   ]">
+        <img src="/icons/unknown.gif" alt="[   ]" />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
@@ -140,13 +140,13 @@
             <a href="/"><img src="HEADER.images/modern-CentOS-logo.png" alt="CentOS" border="0" /></a>
           </div>
         </div>
-        <table bgcolor="#e0d2e3" text=#5e5e5e cellSpacing=0 cellPadding=0 width="100%" border=0 align="center">
+        <table bgcolor="#e0d2e3" text="#5e5e5e" cellSpacing="0" cellPadding="0" width="100%" border="0" align="center">
           <tbody>
             <tr>
-              <td vAlign=top>
+              <td vAlign="top">
                 <table width="100%" border="0" cellspacing="0" cellpadding="0" height="25">
                   <tr>
-                    <td valign=center>&nbsp;<font size=4 face="Verdana, Arial, Helvetica, sans-serif" color=#000000><b>CentOS on the Web:  <a href="http://www.centos.org/">CentOS.org</a> | <a href="http://wiki.centos.org/GettingHelp/ListInfo">Mailing Lists</a> | <a href="http://www.centos.org/download/mirrors/">Mirror List</a> | <a href="http://wiki.centos.org/irc">IRC</a> | <a href="https://www.centos.org/forums/">Forums</a> | <a href="http://bugs.centos.org/">Bugs</a> | <a href="http://www.centos.org/sponsors/">Donate</a>  </b></font></td>\
+                    <td valign="center">&nbsp;<font size="4" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><b>CentOS on the Web:  <a href="http://www.centos.org/">CentOS.org</a> | <a href="http://wiki.centos.org/GettingHelp/ListInfo">Mailing Lists</a> | <a href="http://www.centos.org/download/mirrors/">Mirror List</a> | <a href="http://wiki.centos.org/irc">IRC</a> | <a href="https://www.centos.org/forums/">Forums</a> | <a href="http://bugs.centos.org/">Bugs</a> | <a href="http://www.centos.org/sponsors/">Donate</a>  </b></font></td>\
                   </tr>
                 </table>
               </td>
