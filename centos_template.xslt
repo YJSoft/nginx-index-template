@@ -136,7 +136,7 @@
       <body>
         <div id="header">
           <div id="logo">
-            <a href="/"><img src="HEADER.images/modern-CentOS-logo.png" alt="CentOS" border="0" /></a>
+            <a href="/"><img src="/CentOS/HEADER.images/modern-CentOS-logo.png" alt="CentOS" border="0" /></a>
           </div>
         </div>
         <table bgcolor="#e0d2e3" text="#5e5e5e" cellSpacing="0" cellPadding="0" width="100%" border="0" align="center">
